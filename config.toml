@@ -1,0 +1,44 @@
+baseURL = 'https://sarsoo.xyz/'
+languageCode = 'en-us'
+title = 'sarsoo.xyz'
+theme = 'hugo-coder'
+
+[params]
+  author = "sarsoo"
+  info = "dev & engineering"
+  description = "sarsoo dev & engineering portfolio"
+  since = "2020"
+  keywords = "dev,engineering"
+  avatarurl = "images/avatar.jpg"
+  hideColorSchemeToggle = true
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram fa-2x"
+  weight = 1
+  url = "https://www.instagram.com/pack_it_in_/"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/sarsoo/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/sarsooxyz/"
+[[params.social]]
+  name = "Last.fm"
+  icon = "fa fa-lastfm fa-2x"
+  weight = 4
+  url = "https://last.fm/user/sarsoo/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/andypack/"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
