@@ -54,10 +54,7 @@ jobs:
 
       - name: Write CNAME
         run: echo new.sarsoo.xyz > ./public/CNAME
-
-      - name: Debugging
-        run: ls -al public && cat public/CNAME
-
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
