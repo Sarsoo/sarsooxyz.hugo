@@ -7,7 +7,7 @@ theme = 'hugo-coder'
   author = "sarsoo"
   info = "dev & engineering"
   description = "sarsoo dev & engineering portfolio"
-  since = "2020"
+  since = "2019"
   keywords = "dev,engineering"
   avatarurl = "images/avatar.jpg"
   hideColorSchemeToggle = true
@@ -42,3 +42,8 @@ theme = 'hugo-coder'
   name = "Posts"
   weight = 1
   url  = "posts/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 2
+  url  = "contact/"
