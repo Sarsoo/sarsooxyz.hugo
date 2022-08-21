@@ -43,6 +43,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
+      - name: ls
+        run: ls -al && ls -al themes && ls -al themes/hugo-coder
       - name: Build with Hugo
         run: |
           hugo \
