@@ -38,8 +38,7 @@ I wanted to see what an app like this looks like, what it involves to build it. 
 
 In the process of working on this project, I learnt how to create web servers with __Python’s__ [__Flask__](https://flask.palletsprojects.com/en/1.1.x/) module, how to deploy them to a cloud environment and how to interact with other cloud-based services. The architecture is now completely serverless using __Google‘s App Engine__, __Cloud Functions__ and __Firestore__ services.
 
-![cloud structure](cloud-structure-3.png)
-###### Cloud architecture of services in Google’s Cloud Platform
+{{< figure src="cloud-structure-3.png" caption="Cloud architecture of services in Google’s Cloud Platform" alt="cloud structure" >}}
 
 The front-end was written in __React__, which I also learnt in the process. It was, in fact, my first significant modern __Javascript__ project utilising a __Node__ + __Webpack__ stack, it was interesting getting to grips with the __Js__ ecosystem by making them work together and getting the result to deliver correctly from the backend.
 

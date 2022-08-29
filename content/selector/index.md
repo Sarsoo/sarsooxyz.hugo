@@ -10,9 +10,7 @@ I've been working on my .NET skills recently and, as I tend to, practiced with a
 
 Selector is an agent that watches what you’re listening to on Spotify and reacts to changes by firing pluggable events. These include retrieving the current song’s characteristics and play count on Last.fm. This information is displayed on a dashboard that updates live.
 
-![dashboard example](dashboard.png)
-
-###### The dashboard shows information from Spotify and Last.fm
+{{< figure src="dashboard.png" caption="The dashboard shows information from Spotify and Last.fm" alt="dashboard example" >}}
 
 The app consists of a ASP.NET web app and a command line service that runs the listening agents. A Redis instance is used for cache and messaging between the nodes.
 

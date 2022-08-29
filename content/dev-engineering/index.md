@@ -13,7 +13,11 @@ Holoportation is an area of research exploring the ability to livestream 3D envi
 
 The holograms are captured in the form of a __point cloud__, a cluster of coloured dots that, when presented correctly, can appear like the original object.
 
+{{< figure src="/images/holo-avatar.jpg" >}}
+
 My undergraduate dissertation documented extending the [__LiveScan3D__](https://github.com/MarekKowalski/LiveScan3D) holoportation platform to allow multi-source streaming. The existing capabilities allowed a single scene to be captured in real-time and streamed elsewhere for viewing, multi-source allows multiple independent scenes to be received and composited at the same time (a many-to-one system).
+
+{{< youtube NP0aVjuk5fU >}}
 
 [Read More](/holo)
 

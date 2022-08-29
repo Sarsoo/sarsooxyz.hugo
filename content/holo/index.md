@@ -21,11 +21,19 @@ The app works by capturing what is called a [_point cloud_](https://en.wikipedia
     3 Research
     4 Photoshoot
 
+{{< figure src="Structure.png" caption="Client-server structure of the environment" alt="client-server structure" >}}
+
 # Multi-Source
+
+![pair of subjects facing each other](pair.jpg)
 
 My undergraduate dissertation was tasked with extending the original software to allow _multi-source_ streaming. The current system could stream one scene to one server for viewing. This scene being captured, whether by one camera or from multiple angles, is called a _source_. Multi-source operation allows more than one scene to be composited and displayed at the server or a connected AR client.
 
 The development works by including an ID to indicate what source a frame of footage represents.
+
+{{< youtube NP0aVjuk5fU >}}
+
+###### A couple of recorded sources operating in the virtual space. A third live one is connected part way through
 
 # Mobile AR
 
@@ -37,12 +45,18 @@ Despite successfully migrating the app to use the ARFoundation library, the app 
 
 As a result, the app works fine from a network perspective, but there is a purple rendering error instead of a hologram.
 
+{{< figure src="mobile-holo.png" caption="AR app working on iOS, a purple rendering error where the hologram should be" alt="mobile screenshot" >}}
+
 # Research
+
+{{< figure src="ServerWindow.png" caption="Server window with additional statistics including bandwidth and latency as exponential moving average" alt="server window" >}}
 
 As part of my ongoing work with the holoportation research group, I have also conducted experiments into the suite’s network behaviour. The original software was suited well to the lab environment that it was written for but there are a number of limitations that affects its performance over the open internet. For one, it uses TCP for its data transmission; streaming protocols usually don’t use this because of the overhead it incurs among other reasons.
 
 The work that I did used a collection of virtual machines hosted in various global locations as an environment to measure quality-of-service stats. Streams were set up over varying distances to see how it affected values like latency and throughput. This led to a channel management system being written that would manually control the throughput of frames in order to prioritise certain operating parameters. The system proved effective and further expansions are being looked into.
 
 # Photoshoot
+
+![ballcap](ballcap.jpg)
 
 The system uses a [_point cloud_](https://en.wikipedia.org/wiki/Point_cloud) to capture and transmit 3D video. When zoomed in with a small point size, the medium looked really cool with the black virtual background, see here for more.
