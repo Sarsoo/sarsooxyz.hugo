@@ -1,7 +1,9 @@
-baseURL = 'https://sarsoo.xyz/'
-languageCode = 'en-us'
+baseURL = 'https://new.sarsoo.xyz/'
+languageCode = 'en-gb'
 title = 'sarsoo.xyz'
 theme = 'hugo-coder'
+
+paginate = 40
 
 [params]
   author = "sarsoo"
@@ -39,11 +41,21 @@ theme = 'hugo-coder'
   url = "https://www.linkedin.com/in/andypack/"
 
 [[menu.main]]
-  name = "Posts"
+  name = "Mixonomer"
   weight = 1
+  url  = "mixonomer/"
+
+[[menu.main]]
+  name = "Dev & Engineering"
+  weight = 2
+  url  = "dev-engineering/"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 3
   url  = "posts/"
 
 [[menu.main]]
   name = "Contact"
-  weight = 2
+  weight = 4
   url  = "contact/"
