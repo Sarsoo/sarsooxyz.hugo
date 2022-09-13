@@ -6,11 +6,9 @@ draft: false
 
 ![ci](https://github.com/sarsoo/draught/actions/workflows/test.yml/badge.svg)
 
-Rust is a great language for low-level work. Its memory model and syntactic sugar make it attractive for new projects, eliminating many types of bugs by design.
+_I wrote a checkers game with a computer AI player that runs locally in the browser using compiled Rust + WASM. An AI can take a long time to make a move if you let it look many moves in the future, using compiled Rust allows a smarter computer player than if the player were run in Javascript._
 
-Likewise, WebAssembly is an attractive prospect for speeding up client-side web code. Combining the compiled performance, type safety and memory safety of Rust with the mature GUI development ecosystem of HTML/Javascript/CSS extends the possibilities for what can be completed client-side.
-
-It's these ideas that made me want to explore Rust + WASM - prior to this, I knew little about either beyond the basic tutorials. In my masters AI module, I studied adversarial game models including the [MiniMax algorithm](https://en.wikipedia.org/wiki/Minimax). This algorithm generates a tree of possible moves and compares scores to decide which move should be made. Generating this tree can be expensive as it explodes exponentially, as such it would be a good candidate to try and speed up using compiled Rust over interpreted Javascript.
+I wanted to play with Rust + WASM to see what could be done in the browser without Javascript, previously I knew little about either beyond the basic tutorials. In my masters AI module, I studied adversarial game models including the [MiniMax algorithm](https://en.wikipedia.org/wiki/Minimax). This algorithm generates a tree of possible moves and compares scores to decide which move should be made. Generating this tree can be expensive as it explodes exponentially, as such it would be a good candidate to try and speed up using compiled Rust over interpreted Javascript. If I'm honest, I'm not crazy passionate about checkers but I thought it would be a cool application of some of my uni theory
 
 ![checkers board](checkers-board.png)
 ###### Standard checkers board rendered on an HTML canvas using Rust

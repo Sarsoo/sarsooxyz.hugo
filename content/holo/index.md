@@ -12,6 +12,8 @@ draft: false
 "LiveScan3D: A Fast and Inexpensive 3D Data Acquisition System for Multiple Kinect v2 Sensors". in 3D Vision (3DV), 2015 International Conference on, Lyon, France, 2015
 `
 
+{{% giphy l2JJmXRcFoEJNXyEM %}}
+
 The app works by capturing what is called a [_point cloud_](https://en.wikipedia.org/wiki/Point_cloud), a cluster of coloured points. These points act as the pixels of the image with an extra third coordinate for depth. The coordinates of these points are sent with their RGB values; a good enough resolution allows rendering these points to create a decent real-time image for AR/VR streaming. The original version of the software used the Xbox Kinect camera for the Xbox One but it also supports the new Azure Kinect. 
 
 ## On This Page

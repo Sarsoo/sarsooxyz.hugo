@@ -5,6 +5,16 @@ theme = 'hugo-coder'
 
 paginate = 40
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  art = 'art'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   author = "sarsoo"
   info = "dev & engineering"
@@ -50,12 +60,22 @@ paginate = 40
   weight = 2
   url  = "dev-engineering/"
 
+#[[menu.main]]
+#  name = "Music"
+#  weight = 3
+#  url  = "music/"
+
+#[[menu.main]]
+#  name = "Art"
+#  weight = 4
+#  url  = "art/"
+
 [[menu.main]]
   name = "Posts"
-  weight = 3
+  weight = 5
   url  = "posts/"
 
 [[menu.main]]
   name = "Contact"
-  weight = 4
+  weight = 6
   url  = "contact/"
