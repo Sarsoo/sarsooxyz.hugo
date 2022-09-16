@@ -60,10 +60,10 @@ paginate = 40
   weight = 2
   url  = "dev-engineering/"
 
-#[[menu.main]]
-#  name = "Music"
-#  weight = 3
-#  url  = "music/"
+[[menu.main]]
+  name = "Music"
+  weight = 3
+  url  = "music/"
 
 #[[menu.main]]
 #  name = "Art"
@@ -76,6 +76,6 @@ paginate = 40
   url  = "posts/"
 
 [[menu.main]]
-  name = "Contact"
+  name = "About"
   weight = 6
-  url  = "contact/"
+  url  = "about/"
