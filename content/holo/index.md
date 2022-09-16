@@ -27,7 +27,7 @@ The app works by capturing what is called a [_point cloud_](https://en.wikipedia
 
 # Multi-Source
 
-![pair of subjects facing each other](pair.jpg)
+{{< figure src="pair.png" alt="pair of subjects facing each other" >}}
 
 My undergraduate dissertation was tasked with extending the original software to allow _multi-source_ streaming. The current system could stream one scene to one server for viewing. This scene being captured, whether by one camera or from multiple angles, is called a _source_. Multi-source operation allows more than one scene to be composited and displayed at the server or a connected AR client.
 
@@ -59,6 +59,6 @@ The work that I did used a collection of virtual machines hosted in various glob
 
 # Photoshoot
 
-![ballcap](ballcap.jpg)
+{{< figure src="ballcap.jpg" alt="ballcap" >}}
 
 The system uses a [_point cloud_](https://en.wikipedia.org/wiki/Point_cloud) to capture and transmit 3D video. When zoomed in with a small point size, the medium looked really cool with the black virtual background, see here for more.

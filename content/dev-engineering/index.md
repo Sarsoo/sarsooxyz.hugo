@@ -4,6 +4,12 @@ date: 2021-01-17T22:59:40+00:00
 draft: false
 ---
 
+{{% image-box-link src="/posts/visual-search/mapSurfaceWithMax2.png" href="/posts/visual-search" title="Visual Search" caption="MATLAB" %}}
+
+{{% image-box-link src="/posts/lpss/hood_m_gram.png" href="/posts/lpss" title="Speech Synthesiser" caption="MATLAB" %}}
+
+{{% image-box-link src="/posts/markov/StateTopology.png" href="/posts/markov" title="Hidden Markov Models" caption="MATLAB" %}}
+
 # [Holoportation](/holo)
 
 `C++ [Kinect SDK, OpenCV]`
@@ -21,6 +27,10 @@ My undergraduate dissertation documented extending the [__LiveScan3D__](https://
 
 [Read More](/holo)
 
+{{% image-box-link src="/posts/draught/checkers-board.png" href="/posts/draught" title="Draught" caption="Rust + Js" %}}
+
+{{% image-box-link src="/posts/game-of-life/gameoflife1.png" href="/posts/game-of-life" title="Game of Life" caption="Rust + Js" %}}
+
 # [Mixonomer](/mixonomer)
 
 `Python [Flask]`
@@ -30,7 +40,7 @@ Mixonomer is a web app for creating smart playlists for __Spotify__. These playl
 
 Updates are run multiple times a day or on-demand. Additionally, __Last.fm__ integration provides listening statistics for your playlists.
 
-![cloud structure](/mixonomer/cloud-structure-3.png)
+{{< figure src="/mixonomer/cloud-structure-3.png" alt="cloud structure" >}}
 
 The project began as an exercise in recreating the functionality of [__Paul Lamere‘s__](https://twitter.com/plamere) [__Smarter Playlists__](http://playlistmachinery.com/) app. This tool had become a really important part of my daily listening habits as a way of combining my smaller sub-genre playlists into larger mixes.
 
@@ -44,6 +54,8 @@ The system is now deployed with a fully serverless architecture.
 
 [Source Code](https://github.com/Sarsoo/Mixonomer)
 
+---
+
 # [Selector](/selector)
 
 `.NET [ASP.NET, Redis, Docker]`
@@ -51,7 +63,7 @@ The system is now deployed with a fully serverless architecture.
 
 A __Spotify__ listening agent which watches what you listen to and presents related data and information in a live dashboard. __Spotify__ presents some interesting track data that isn’t visible in the official clients such as its beats-per-minute, key signature and a musical descriptor.
 
-![dashboard](/selector/dashboard.png)
+{{< figure src="/selector/dashboard.png" alt="dashboard" >}}
 
 [Read More](/selector)
 
@@ -59,7 +71,9 @@ A __Spotify__ listening agent which watches what you listen to and presents rela
 
 [Source Code](https://github.com/Sarsoo/Selector)
 
-# Listening Engineering
+---
+
+# [Listening Engineering](/posts/listening-analysis)
 
 `Python [scikit-learn, Jupyter]`
 
@@ -69,7 +83,9 @@ I wanted to explore what insights could be found in my 3 years of __Last.fm__ sc
 
 __Spotify__ provides audio features for the tracks on its platform. These features describe a number of qualities for the tracks including how much energy it has and how vocal it is. I investigated whether the set of audio features for my larger genre playlists could be used to classify tracks by genre. 
 
-[Read More]()
+[Read More](/posts/listening-analysis)
+
+---
 
 # Signal Processing
 
@@ -91,6 +107,8 @@ Throughout my studies I found myself particularly interested in the signal proce
 
 [Coursework Code](https://github.com/Sarsoo?tab=repositories&q=coursework)
 
+---
+
 I've been coding for 7 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [__GitHub__](http://github.com/sarsoo).
 
 Alongside development I also enjoy working on infrastructure, I have 5 years experience using __Linux__ and managing networks. I have experience working with cloud technologies – from [__virtual machines__](/holo), [__web server PaaS__](/mixonomer) and [__serverless functions__](/mixonomer) to [__NoSQL__](/mixonomer), Big Data SQL and [__pub/sub messaging__](/mixonomer). Much of this experience was gained during my [__Mixonomer__](/mixonomer) project and during my __Disney__ internship. As part of my [dissertation](/holo#research), I used a global cluster of virtual machines as an environment to measure and experiment with holographic video QoS over long distances.
@@ -98,6 +116,8 @@ Alongside development I also enjoy working on infrastructure, I have 5 years exp
 At university, I was particularly interested in the software side of the field including modules in __programming__, __signal processing__ and __AI__. I also took a set of modules in __semiconductors__ and __nanoscience__.
 
 [Posts](/posts)
+
+---
 
 # Awards
 

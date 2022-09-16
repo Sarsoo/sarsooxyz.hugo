@@ -10,15 +10,13 @@ _I wrote a checkers game with a computer AI player that runs locally in the brow
 
 I wanted to play with Rust + WASM to see what could be done in the browser without Javascript, previously I knew little about either beyond the basic tutorials. In my masters AI module, I studied adversarial game models including the [MiniMax algorithm](https://en.wikipedia.org/wiki/Minimax). This algorithm generates a tree of possible moves and compares scores to decide which move should be made. Generating this tree can be expensive as it explodes exponentially, as such it would be a good candidate to try and speed up using compiled Rust over interpreted Javascript. If I'm honest, I'm not crazy passionate about checkers but I thought it would be a cool application of some of my uni theory
 
-![checkers board](checkers-board.png)
-###### Standard checkers board rendered on an HTML canvas using Rust
+{{< figure src="checkers-board.png" alt="checkers board" caption="Standard checkers board rendered on an HTML canvas using Rust" >}}
 
 The project took about 3 weeks off and on. Initially, I wanted to model the game board without the off-diagonal pieces that aren't played on. This would have helped reduce the memory footprint of each board which would be ideal when we are going to be handling a lot. Unfortunately, this significantly increased the complexity of modelling piece movements - after some trial and error I resorted to just modelling the whole board.
 
 The MiniMax algorithm was also a bit of a pain. The algorithm relies on a tree structure for which I used the [IndexTree crate](https://crates.io/crates/indextree). Instead of using pointers between nodes that could rely on unsafe code, this library instead relies on a single backing array of nodes. Working out how to effectively create, populate and traverse the trees while following the borrow checker's rules was an effective learning exercise.
 
-![screenshot](screenshot.png)
-###### Javascript UI with a Rust-controlled canvas
+{{< figure src="screenshot.png" caption="Javascript UI with a Rust-controlled canvas" >}}
 
 The performance of the game and the AI was pretty impressive. This was also without any Alpha-Beta pruning, a method to reduce the number of tree nodes that need searching. Below are the results of a basic benchmark for expanding the MiniMax tree to given depths both in development mode and release mode.
 

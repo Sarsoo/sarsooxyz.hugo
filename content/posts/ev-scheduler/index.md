@@ -15,7 +15,7 @@ The project was divided into three areas of concern:
 
 [Github Repo](https://github.com/Sarsoo/electric-vehicle-scheduler)
 
-![cloud-structure](cloud-structure.png)
+{{< figure src="cloud-structure.png" alt="cloud-structure" >}}
 
 I was responsible for designing, writing and deploying the cloud service, my report on this aspect can be seen below,
 

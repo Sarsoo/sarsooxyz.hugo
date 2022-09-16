@@ -12,13 +12,13 @@ Mixonomer is a web app to augment your __Spotify__ listening experience with _sm
 
 [Read the Docs](https://docs.mixonomer.sarsoo.xyz/)
 
-![playlist list](Playlists.png)
+{{< figure src="Playlists.png" alt="playlist list" >}}
 
 Include recommendations for additional __Spotify__ suggestions based on a playlist’s tracklist. Reference your playlists and those you follow by name or add references to other _smart playlists_ to additionaly include their watchlist.
 
 Select library tracks for the playlists to include your __Spotify__ saved tracks in the mix.
 
-![playlist example](PlaylistExample.png)
+{{< figure src="PlaylistExample.png" alt="playlist example" >}}
 
 You can shuffle playlists for output or sort by reverse release date for a thumbnail that stays fresh with new music artwork.
 
@@ -26,7 +26,7 @@ You can shuffle playlists for output or sort by reverse release date for a thumb
 
 Tags are a listening statistics visualiser for exploring your [__Last.fm__](https://last.fm) habits. __Last.fm__ is great for exploring your listening history but sometimes I’ve wanted to be able to group some artists or albums to see their data in one place.
 
-![tag example](TagExample.png)
+{{< figure src="TagExample.png" alt="tag example" >}}
 
 Mixonomer’s tags lets you do this, I use it for stuff like grouping a label’s artists together to see how many times I’ve listened to _Dreamville_ artists, for example. Tick time to estimate the amount of time you’ve spent listening to each.
 
