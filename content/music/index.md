@@ -20,4 +20,4 @@ Selector is a __Spotify__ listening agent for monitoring what you're listening t
 
 [Read More](/selector)
 
-{{% fontawesome fa-brands fa-github %}} [Try It Out](https://selector.sarsoo.xyz)
+[Try It Out](https://selector.sarsoo.xyz)
