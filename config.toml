@@ -1,4 +1,4 @@
-baseURL = 'https://new.sarsoo.xyz/'
+baseURL = 'https://sarsoo.xyz/'
 languageCode = 'en-gb'
 title = 'sarsoo.xyz'
 theme = 'hugo-coder'
