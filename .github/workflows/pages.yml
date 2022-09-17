@@ -53,7 +53,7 @@ jobs:
             --baseURL ${{ steps.pages.outputs.base_url }}
 
       - name: Write CNAME
-        run: echo sarsoo.xyz > ./public/CNAME
+        run: echo new.sarsoo.xyz > ./public/CNAME
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
