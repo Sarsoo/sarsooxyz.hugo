@@ -40,7 +40,7 @@ Mixonomer is a web app for creating smart playlists for __Spotify__. These playl
 
 Updates are run multiple times a day or on-demand. Additionally, __Last.fm__ integration provides listening statistics for your playlists.
 
-{{< figure src="/mixonomer/cloud-structure-3.png" alt="cloud structure" >}}
+{{< figure src="/posts/mixonomer/cloud-structure-3.png" alt="cloud structure" >}}
 
 The project began as an exercise in recreating the functionality of [__Paul Lamere‘s__](https://twitter.com/plamere) [__Smarter Playlists__](http://playlistmachinery.com/) app. This tool had become a really important part of my daily listening habits as a way of combining my smaller sub-genre playlists into larger mixes.
 
@@ -63,7 +63,7 @@ The system is now deployed with a fully serverless architecture.
 
 A __Spotify__ listening agent which watches what you listen to and presents related data and information in a live dashboard. __Spotify__ presents some interesting track data that isn’t visible in the official clients such as its beats-per-minute, key signature and a musical descriptor.
 
-{{< figure src="/selector/dashboard.png" alt="dashboard" >}}
+{{< figure src="/posts/selector/dashboard.png" alt="dashboard" >}}
 
 [Read More](/selector)
 

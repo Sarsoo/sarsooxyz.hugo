@@ -1,5 +1,5 @@
 ---
-title: "Draught"
+title: "Draught: Rust WASM Game With AI Player"
 date: 2021-07-13T14:02:40+00:00
 draft: false
 ---
@@ -8,13 +8,13 @@ draft: false
 
 _I wrote a checkers game with a computer AI player that runs locally in the browser using compiled Rust + WASM. An AI can take a long time to make a move if you let it look many moves in the future, using compiled Rust allows a smarter computer player than if the player were run in Javascript._
 
-I wanted to play with Rust + WASM to see what could be done in the browser without Javascript, previously I knew little about either beyond the basic tutorials. In my masters AI module, I studied adversarial game models including the [MiniMax algorithm](https://en.wikipedia.org/wiki/Minimax). This algorithm generates a tree of possible moves and compares scores to decide which move should be made. Generating this tree can be expensive as it explodes exponentially, as such it would be a good candidate to try and speed up using compiled Rust over interpreted Javascript. If I'm honest, I'm not crazy passionate about checkers but I thought it would be a cool application of some of my uni theory
+I wanted to play with Rust + WASM to see what could be done in the browser without Javascript, previously I knew little about either beyond the basic tutorials. In my masters AI module, I studied adversarial game models including the [MiniMax algorithm](https://en.wikipedia.org/wiki/Minimax). This algorithm generates a tree of possible moves and compares scores to decide which move should be made. Generating this tree can be expensive as it explodes exponentially, I thought it would be a good candidate to try and speed up using compiled Rust over interpreted Javascript. If I'm honest, I'm not crazy passionate about checkers but I thought it would be a cool application of some of my uni theory.
 
 {{< figure src="checkers-board.png" alt="checkers board" caption="Standard checkers board rendered on an HTML canvas using Rust" >}}
 
 The project took about 3 weeks off and on. Initially, I wanted to model the game board without the off-diagonal pieces that aren't played on. This would have helped reduce the memory footprint of each board which would be ideal when we are going to be handling a lot. Unfortunately, this significantly increased the complexity of modelling piece movements - after some trial and error I resorted to just modelling the whole board.
 
-The MiniMax algorithm was also a bit of a pain. The algorithm relies on a tree structure for which I used the [IndexTree crate](https://crates.io/crates/indextree). Instead of using pointers between nodes that could rely on unsafe code, this library instead relies on a single backing array of nodes. Working out how to effectively create, populate and traverse the trees while following the borrow checker's rules was an effective learning exercise.
+The MiniMax algorithm was also a bit of a pain. The algorithm relies on a tree structure for which I used the [IndexTree crate](https://crates.io/crates/indextree). Instead of using pointers between nodes that could rely on unsafe code, this library instead relies on a single backing array of nodes. Working out how to effectively create, populate and traverse the trees while following the borrow checker's rules was a good test.
 
 {{< figure src="screenshot.png" caption="Javascript UI with a Rust-controlled canvas" >}}
 

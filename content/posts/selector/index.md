@@ -1,7 +1,9 @@
 ---
-title: "Selector: A Spotify listening agent"
+title: "Selector: A Spotify Listening Agent"
 date: 2022-04-04T21:26:40+00:00
 draft: false
+aliases:
+    - /selector
 ---
 
 ![ci](https://github.com/sarsoo/Selector/actions/workflows/ci.yml/badge.svg)

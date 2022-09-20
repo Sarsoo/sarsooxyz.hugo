@@ -1,5 +1,5 @@
 ---
-title: "Game of Life"
+title: "Game of Life: Rust WASM Exercise"
 date: 2021-06-26T14:14:40+00:00
 draft: false
 ---
