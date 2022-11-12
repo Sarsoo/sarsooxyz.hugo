@@ -35,14 +35,9 @@ paginate = 40
   weight = 2
   url = "https://github.com/sarsoo/"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/sarsooxyz/"
-[[params.social]]
   name = "Last.fm"
   icon = "fa fa-lastfm fa-2x"
-  weight = 4
+  weight = 3
   url = "https://last.fm/user/sarsoo/"
 [[params.social]]
   name = "Linkedin"
