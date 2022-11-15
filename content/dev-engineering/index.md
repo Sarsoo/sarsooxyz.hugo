@@ -109,7 +109,7 @@ Throughout my studies I found myself particularly interested in the signal proce
 
 ---
 
-I've been coding for 7 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [__GitHub__](http://github.com/sarsoo).
+I've been coding for 8 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [__GitHub__](http://github.com/sarsoo).
 
 Alongside development I also enjoy working on infrastructure, I have 5 years experience using __Linux__ and managing networks. I have experience working with cloud technologies – from [__virtual machines__](/holo), [__web server PaaS__](/mixonomer) and [__serverless functions__](/mixonomer) to [__NoSQL__](/mixonomer), Big Data SQL and [__pub/sub messaging__](/mixonomer). Much of this experience was gained during my [__Mixonomer__](/mixonomer) project and during my __Disney__ internship. As part of my [dissertation](/holo#research), I used a global cluster of virtual machines as an environment to measure and experiment with holographic video QoS over long distances.
 
