@@ -5,7 +5,7 @@ WORKDIR /sarsooxyz.hugo
 
 RUN hugo \
     --minify \
-    --baseURL http://localhost:10000
+    --baseURL https://sarsoo.xyz/
 
 FROM nginx
 COPY --from=build /sarsooxyz.hugo/public /usr/share/nginx/html/
