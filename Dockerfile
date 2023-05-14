@@ -1,4 +1,4 @@
-FROM git.sarsoo.xyz/sarsoo/hugo:latest AS build
+FROM registry.sarsoo.xyz/sarsoo/hugo:latest AS build
 
 COPY . /sarsooxyz.hugo
 WORKDIR /sarsooxyz.hugo
