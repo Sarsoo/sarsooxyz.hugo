@@ -7,5 +7,5 @@ RUN hugo \
     --minify \
     --baseURL https://sarsoo.xyz/
 
-FROM nginx
+FROM nginx:alpine-slim
 COPY --from=build /sarsooxyz.hugo/public /usr/share/nginx/html/
