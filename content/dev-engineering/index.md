@@ -10,6 +10,18 @@ draft: false
 
 {{% image-box-link src="/posts/markov/StateTopology.png" href="/posts/markov" title="Hidden Markov Models" caption="MATLAB" %}}
 
+# [Infrastructure]({{< ref "infra" >}})
+
+I manage my local and cloud infrastructure with __Terraform__ + __Ansible__ + __Docker__. I've found this stack incredibly powerful so I've written a post about my patterns and what I love about it.
+
+{{< figure src="/posts/infra/grafana.png" alt="grafana dashboard" >}}
+
+Basically, Terraform creates and destroys infrastructure, Ansible manages the OS-level stuff and then the services I run use docker compose. I use a _bootstrap_ Ansible role instead of golden images.
+
+[Read More]({{< ref "infra" >}})
+
+---
+
 # [Holoportation](/holo)
 
 `C++ [Kinect SDK, OpenCV]`
