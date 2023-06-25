@@ -25,24 +25,29 @@ paginate = 40
   hideColorSchemeToggle = true
 
 [[params.social]]
+  name = "Mastodon"
+  icon = "fa fa-mastodon fa-2x"
+  weight = 1
+  url = "https://fosstodon.org/@sarsoo/"
+[[params.social]]
   name = "Instagram"
   icon = "fa fa-instagram fa-2x"
-  weight = 1
+  weight = 2
   url = "https://www.instagram.com/pack_it_in_/"
 [[params.social]]
   name = "Github"
   icon = "fa fa-github fa-2x"
-  weight = 2
+  weight = 3
   url = "https://github.com/sarsoo/"
 [[params.social]]
   name = "Last.fm"
   icon = "fa fa-lastfm fa-2x"
-  weight = 3
+  weight = 4
   url = "https://last.fm/user/sarsoo/"
 [[params.social]]
   name = "Linkedin"
   icon = "fa fa-linkedin fa-2x"
-  weight = 4
+  weight = 5
   url = "https://www.linkedin.com/in/andypack/"
 
 [[menu.main]]
