@@ -1,0 +1,13 @@
+FROM alpine as build
+
+RUN apk add hugo
+
+COPY . /sarsooxyz.hugo
+WORKDIR /sarsooxyz.hugo
+
+RUN hugo \
+    --minify \
+    --baseURL https://sarsoo.xyz/
+
+FROM nginx:alpine-slim
+COPY --from=build /sarsooxyz.hugo/public /usr/share/nginx/html/
