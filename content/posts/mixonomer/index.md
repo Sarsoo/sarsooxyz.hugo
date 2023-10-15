@@ -46,7 +46,7 @@ The front-end was written in __React__, which I also learnt in the process. It w
 
 The app sits in the background now, it has replaced [__Smarter Playlists__](http://playlistmachinery.com/) for my _smart playlists_ and its been a good testbed to play with more cloud services.
 
-[Try It Out](https://mixonomer.sarsoo.xyz/)
+# [Try It Out](https://mixonomer.sarsoo.xyz/)
 
 [Github](https://github.com/Sarsoo/Mixonomer)
 

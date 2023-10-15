@@ -16,7 +16,11 @@ The project took about 3 weeks off and on. Initially, I wanted to model the game
 
 The MiniMax algorithm was also a bit of a pain. The algorithm relies on a tree structure for which I used the [IndexTree crate](https://crates.io/crates/indextree). Instead of using pointers between nodes that could rely on unsafe code, this library instead relies on a single backing array of nodes. Working out how to effectively create, populate and traverse the trees while following the borrow checker's rules was a good test.
 
-{{< figure src="screenshot.png" caption="Javascript UI with a Rust-controlled canvas" >}}
+# Try it out below...
+
+<iframe src="https://draught.sarsoo.xyz/" style="width: 100%; height: 1000px"></iframe>
+
+## Under the hood
 
 The performance of the game and the AI was pretty impressive. This was also without any Alpha-Beta pruning, a method to reduce the number of tree nodes that need searching. Below are the results of a basic benchmark for expanding the MiniMax tree to given depths both in development mode and release mode.
 
@@ -40,4 +44,4 @@ Ultimately, I was pretty happy with the project and it can now be used as a test
 
 [GitHub Repo](https://github.com/sarsoo/draught)
 
-[Try it out!](https://draught.sarsoo.xyz/)
+# [Try it out!](https://draught.sarsoo.xyz/)
