@@ -21,3 +21,13 @@ Selector is a __Spotify__ listening agent for monitoring what you're listening t
 [Read More](/selector)
 
 [Try It Out](https://selector.sarsoo.xyz)
+
+{{% image-box-link src="/posts/listening-analysis/svm-1.png" href="/posts/listening-analysis" title="Listening Engineering" %}}
+
+I wanted to explore what insights could be found in my 3 years of __Last.fm__ scrobbles when augmented with __Spotify__ data. Ideally, I also wanted to be able to apply the intelligence to the __Mixonomer__ playlist pipeline.
+
+__Spotify__ provides audio features for the tracks on its platform. These features describe a number of qualities for the tracks including how much energy it has and how vocal it is. I investigated whether the set of audio features for my larger genre playlists could be used to classify tracks by genre. 
+
+[Read More](/posts/listening-analysis)
+
+[Have a Look](https://github.com/Sarsoo/listening-analysis)
