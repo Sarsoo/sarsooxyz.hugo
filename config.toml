@@ -8,7 +8,7 @@ paginate = 40
 [taxonomies]
   category = 'categories'
   tag = 'tags'
-  art = 'art'
+  # art = 'art'
 
 [markup]
   [markup.goldmark]
@@ -70,10 +70,10 @@ paginate = 40
   weight = 4
   url  = "music/"
 
-#[[menu.main]]
-#  name = "Art"
-#  weight = 5
-#  url  = "art/"
+[[menu.main]]
+  name = "Art"
+  weight = 5
+  url  = "art/"
 
 [[menu.main]]
   name = "Posts"
