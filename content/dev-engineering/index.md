@@ -2,6 +2,8 @@
 title: "Dev & Engineering"
 date: 2021-01-17T22:59:40+00:00
 draft: false
+aliases:
+    - /dev
 ---
 
 {{% image-box-link src="/posts/visual-search/mapSurfaceWithMax2.png" href="/posts/visual-search" title="Visual Search" caption="MATLAB" %}}
