@@ -5,7 +5,7 @@ date: 2020-12-25T00:04:40+00:00
 
 {{% avatar "/images/holo-avatar.jpg" %}}
 
-UK-based, software engineer with experience in __fintech__. 
+UK-based software engineer with experience in __fintech__. 
 
 [__Award-winning__](/dev-engineering/#awards), __first-class__ __masters__ [electronic engineering](/dev-engineering) graduate & previous __Disney__ intern
 
