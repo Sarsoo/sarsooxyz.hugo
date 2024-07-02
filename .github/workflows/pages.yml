@@ -29,6 +29,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    name: Build Pages
     steps:
       - name: Install Hugo CLI
         run: sudo apt install hugo
@@ -58,8 +59,9 @@ jobs:
 
   # Deployment job
   deploy:
+    name: Deploy Staging
     environment:
-      name: github-pages
+      name: staging
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build

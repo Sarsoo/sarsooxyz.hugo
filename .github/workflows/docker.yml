@@ -10,6 +10,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+    name: Build Container
     steps:
       - uses: actions/checkout@v3
 
@@ -28,3 +29,25 @@ jobs:
           push: true
           tags: sarsoo/sarsooxyz.hugo:latest
           file: Dockerfile.pub
+
+  deploy:
+
+    runs-on: ubuntu-latest
+    name: Deploy Prod
+    needs: [docker] # for ignoring bad builds
+    environment: 
+      name: prod
+      url: https://sarsoo.xyz
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+          version: 1.68.1
+
+      - name: Deploy
+        run: ssh -o StrictHostKeyChecking=no aj@odb -t "cd sarsooxyz-hugo/ && docker compose up -d --pull always"
