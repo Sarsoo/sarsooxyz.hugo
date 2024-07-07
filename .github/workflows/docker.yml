@@ -50,4 +50,4 @@ jobs:
           version: 1.68.1
 
       - name: Deploy
-        run: ssh -o StrictHostKeyChecking=no aj@odb -t "cd sarsooxyz-hugo/ && docker compose up -d --pull always"
+        run: ssh -o StrictHostKeyChecking=no ${{ secrets.TS_SSH }} -t "cd sarsooxyz-hugo/ && docker compose up -d --pull always"
