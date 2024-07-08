@@ -75,3 +75,6 @@ I also run three Bind containers, one at home, one in Linode and one in Oracle c
 ## Shhh, what SSH
 
 There have been a few SSH scares recently, first the whole social engineering System D thing, [then the RCE](https://www.wiz.io/blog/cve-2024-6387-critical-rce-openssh). SSH is very secure and it's _proooobably_ fine to have it open on the internet, but with Tailscale you don't have to so I don't. That just makes me a bit happy.
+
+
+So, for now, I'm using Tailscale as my VPN solution. It's still got some drawbacks, but I'm having fun playing with it, and it has some real strengths over rolling your own Wireguard solution.
