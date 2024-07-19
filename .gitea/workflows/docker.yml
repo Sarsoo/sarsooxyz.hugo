@@ -32,3 +32,4 @@ jobs:
           push: true
           tags: gitea.sheep-ghoul.ts.net/sarsoo/sarsooxyz.hugo:latest
           file: Dockerfile.pub
+          context: .
