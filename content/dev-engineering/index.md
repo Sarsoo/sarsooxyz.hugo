@@ -6,11 +6,9 @@ aliases:
     - /dev
 ---
 
-{{% image-box-link src="/posts/visual-search/mapSurfaceWithMax2.png" href="/posts/visual-search" title="Visual Search" caption="MATLAB" %}}
+{{% image-box-link src="/posts/mixonomer/PlaylistExample.png" href="/posts/mixonomer" title="Mixonomer" caption="Python + React" %}}
 
-{{% image-box-link src="/posts/lpss/hood_m_gram.png" href="/posts/lpss" title="Speech Synthesiser" caption="MATLAB" %}}
-
-{{% image-box-link src="/posts/markov/StateTopology.png" href="/posts/markov" title="Hidden Markov Models" caption="MATLAB" %}}
+{{% image-box-link src="/posts/selector/dashboard.png" href="/posts/selector/" title="Selector" caption="C# + TypeScript + Vue.js" %}}
 
 # [Infrastructure]({{< relref "infra" >}})
 
@@ -22,7 +20,11 @@ Basically, Terraform creates and destroys infrastructure, Ansible manages the OS
 
 [Read More]({{< relref "infra" >}})
 
----
+{{% image-box-link src="/posts/visual-search/mapSurfaceWithMax2.png" href="/posts/visual-search" title="Visual Search" caption="MATLAB" %}}
+
+{{% image-box-link src="/posts/lpss/hood_m_gram.png" href="/posts/lpss" title="Speech Synthesiser" caption="MATLAB" %}}
+
+{{% image-box-link src="/posts/markov/StateTopology.png" href="/posts/markov" title="Hidden Markov Models" caption="Python + Numpy" %}}
 
 # [Holoportation](/holo)
 
@@ -122,6 +124,8 @@ Throughout my studies I found myself particularly interested in the signal proce
 [Coursework Code](https://github.com/Sarsoo?tab=repositories&q=coursework)
 
 ---
+
+<!--- 2016 for coding, 2018 for Linux --->
 
 I've been coding for 8 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [__GitHub__](http://github.com/sarsoo).
 

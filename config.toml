@@ -26,7 +26,7 @@ paginate = 40
 
 [[params.social]]
   name = "Mastodon"
-  icon = "fa fa-mastodon fa-2x"
+  icon = "fa-brands fa-mastodon fa-2x"
   weight = 1
   url = "https://fosstodon.org/@sarsoo/"
 [[params.social]]
