@@ -12,6 +12,6 @@ One of my first exposures to Rust WebAssembly was following the Rust + WASM Book
 
 This would prove a useful base from which to develop my [checkers implementation](/posts/draught).
 
-[GitHub Repo](https://github.com/sarsoo/game-of-life)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarsoo/game-of-life)
 
 [Try it out!](https://life.sarsoo.xyz/)

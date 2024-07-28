@@ -6,6 +6,12 @@ aliases:
     - /dev
 ---
 
+[![Gitea](https://img.shields.io/badge/Gitea-34495E?style=for-the-badge&logo=gitea&logoColor=5D9425)](https://git.lab.sarsoo.xyz/sarsoo/-/packages)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=pypi)
+[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=cargo)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=container)
+[![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=helm)
+
 {{% image-box-link src="/posts/mixonomer/PlaylistExample.png" href="/posts/mixonomer" title="Mixonomer" caption="Python + React" %}}
 
 {{% image-box-link src="/posts/selector/dashboard.png" href="/posts/selector/" title="Selector" caption="C# + TypeScript + Vue.js" %}}
@@ -68,7 +74,7 @@ The system is now deployed with a fully serverless architecture.
 
 [Try It Out](https://mixonomer.sarsoo.xyz/)
 
-[Source Code](https://github.com/Sarsoo/Mixonomer)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/Mixonomer)
 
 ---
 
@@ -85,7 +91,7 @@ A __Spotify__ listening agent which watches what you listen to and presents rela
 
 [Try It Out](https://selector.sarsoo.xyz/)
 
-[Source Code](https://github.com/Sarsoo/Selector)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/Selector)
 
 ---
 
@@ -121,13 +127,13 @@ Throughout my studies I found myself particularly interested in the signal proce
 
 [Posts](/posts)
 
-[Coursework Code](https://github.com/Sarsoo?tab=repositories&q=coursework)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo?tab=repositories&q=coursework)
 
 ---
 
 <!--- 2016 for coding, 2018 for Linux --->
 
-I've been coding for 8 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [__GitHub__](http://github.com/sarsoo).
+I've been coding for 8 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](http://github.com/sarsoo).
 
 Alongside development I also enjoy working on infrastructure, I have 5 years experience using __Linux__ and managing networks. I have experience working with cloud technologies – from [__virtual machines__](/holo), [__web server PaaS__](/mixonomer) and [__serverless functions__](/mixonomer) to [__NoSQL__](/mixonomer), Big Data SQL and [__pub/sub messaging__](/mixonomer). Much of this experience was gained during my [__Mixonomer__](/mixonomer) project and during my __Disney__ internship. As part of my [dissertation](/holo#research), I used a global cluster of virtual machines as an environment to measure and experiment with holographic video QoS over long distances.
 

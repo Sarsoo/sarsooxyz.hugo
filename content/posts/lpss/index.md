@@ -10,7 +10,7 @@ During my speech & audio processing & recognition post-grad module, I completed 
 
 The report analysed two vowel segments in order to identify their fundamental frequencies and the first handful of formant frequencies. After this, linear predictive coefficients of varying orders were calculated and used in conjunction with the fundamental frequency to re-synthesise the vowel.
 
-[GitHub Repo](https://github.com/Sarsoo/linear-predictive-speech-synth)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/linear-predictive-speech-synth)
 
 [Read the report here.](final-report.pdf)
 

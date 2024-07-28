@@ -24,6 +24,6 @@ From here, the coursework tested the ability to calculate and analyse various as
 
 The above graph is presenting the __occupation likelihoods__ of each state at each time step or observation. It is the joint probability from the forward and backward likelihoods. From here it looks like the observations were taken from state 2 for 3 time-steps before swapping to state 1 for 4 time-steps and changing back to state 2 for the last one.
 
-[GitHub Repo](https://github.com/Sarsoo/markov-models)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/markov-models)
 
 [Read the report here.](report.pdf)

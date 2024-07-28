@@ -70,4 +70,4 @@ From both of the above graphs, the L1 distance measure consistently outperformed
 
 This work was one of my favourite pieces of coursework I did at uni. I really got sucked into playing with the different descriptors and visualisation. Once I was happy with the MATLAB syntax I kept adding to the system, finally writing an automation that allowed the surface plots seen above for the different grid sizes. These were huge calculations that basically did the whole visual search process from start to end over and over again for each grid dimension combination. It was the first time that I had to leave my computer working at my code; it was really rewarding when it was these that were specifically identified as making the piece worthy of full marks.
 
-[GitHub Repo](https://github.com/Sarsoo/visual-search)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/visual-search)

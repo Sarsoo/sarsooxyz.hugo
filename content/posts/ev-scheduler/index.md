@@ -13,7 +13,7 @@ The project was divided into three areas of concern:
 - A mobile app for requesting slots and receiving notifications
 - A cloud-based back end service for hosting the application's logic
 
-[Github Repo](https://github.com/Sarsoo/electric-vehicle-scheduler)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/electric-vehicle-scheduler)
 
 {{< figure src="cloud-structure.png" alt="cloud-structure" >}}
 

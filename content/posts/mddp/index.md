@@ -30,6 +30,6 @@ Drones are used in subsea cable repair to locate, cut and retrieve each half of 
 
 This requires a number of advances including onboard power, a more advanced navigation system and a more flexible launch and recovery system.
 
-[GitHub Repo](https://github.com/Sarsoo/MDDP-Cableship)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/MDDP-Cableship)
 
 [Read the report here.](report-extra.pdf)

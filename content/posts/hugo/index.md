@@ -18,4 +18,4 @@ When it comes to deployment, my first instinct was to use GitHub Pages. The stat
 
 So, for now, I am hosting the site on my public VPS. This means it's not coming from a crazy large CDN but a single server which could make it a bit slower. I hope that the increased speed from serving only static files should help there. As I said, though, there are so many options to host static sites from GitHub Pages to public facing S3 buckets it could be fun to revisit this. I have left the GitHub Pages workflow in place as a [beta](https://new.sarsoo.xyz) of the site, I push new changes to production with Ansible at the moment.
 
-[GitHub Repo](https://github.com/Sarsoo/sarsooxyz-hugo)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/sarsooxyz-hugo)

@@ -48,8 +48,8 @@ The app sits in the background now, it has replaced [__Smarter Playlists__](http
 
 # [Try It Out](https://mixonomer.sarsoo.xyz/)
 
-[Github](https://github.com/Sarsoo/Mixonomer)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/Mixonomer)
 
-[iOS Github](https://github.com/Sarsoo/Mixonomer-iOS)
+[iOS ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/Mixonomer-iOS)
 
-[C# Github](https://github.com/Sarsoo/Mixonomer.NET)
+[C# ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/Mixonomer.NET)

@@ -42,6 +42,6 @@ In order to make the game more fun to play, I introduced a further parameter, th
 
 Ultimately, I was pretty happy with the project and it can now be used as a testbed for trying out new Rust, WASM and Javascript skills that I learn. 
 
-[GitHub Repo](https://github.com/sarsoo/draught)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarsoo/draught)
 
 # [Try it out!](https://draught.sarsoo.xyz/)

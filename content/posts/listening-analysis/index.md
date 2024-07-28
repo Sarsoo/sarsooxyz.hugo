@@ -4,7 +4,7 @@ date: 2021-02-20T12:22:40+00:00
 draft: false
 ---
 
-[Source Code](https://github.com/Sarsoo/listening-analysis)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/listening-analysis)
 
 As my [Music Tools](https://sarsoo.xyz/music-tools/) project progressed, I found myself with a cloud environment and a growing dataset of my listening habits to explore. __Spotify__ provides audio features for all of the tracks on its service. These features describe qualities about the track such as how instrumental it is, how much energy it has. I wanted to investigate whether the features that describe my larger genre-playlists were coherent enough to use as the classes of a classifier. I compared the performance of SVM’s with shallow multi-layer perceptrons.
 
@@ -84,4 +84,4 @@ Similar to class rebalancing, the dataset also required processing. Before using
 
 Instead of allowing this to be determined by a random split, the dataset was _stratified_ when splitting. This applies the given proportion of training to test set to each class during the split such that the same proportion of tracks occur in either dataset.
 
-[Source Code](https://github.com/Sarsoo/listening-analysis)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/listening-analysis)
