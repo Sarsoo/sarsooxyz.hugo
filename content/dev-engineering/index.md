@@ -6,11 +6,11 @@ aliases:
     - /dev
 ---
 
-[![Gitea](https://img.shields.io/badge/Gitea-34495E?style=for-the-badge&logo=gitea&logoColor=5D9425)](https://git.lab.sarsoo.xyz/sarsoo/-/packages)
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=pypi)
-[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=cargo)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=container)
-[![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://git.lab.sarsoo.xyz/sarsoo/-/packages?q=&type=helm)
+[![Gitea](https://img.shields.io/badge/Gitea-34495E?style=for-the-badge&logo=gitea&logoColor=5D9425)](https://git.sarsoo.xyz/sarsoo/-/packages)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=pypi)
+[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=cargo)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=container)
+[![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=helm)
 
 {{% image-box-link src="/posts/mixonomer/PlaylistExample.png" href="/posts/mixonomer" title="Mixonomer" caption="Python + React" %}}
 
