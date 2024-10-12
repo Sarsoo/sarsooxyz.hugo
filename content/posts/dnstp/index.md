@@ -1,6 +1,11 @@
 ---
 title: "dnstp: Transmitting Arbitrary Data With DNS"
 date: 2024-10-12T08:26:40+00:00
+tags:
+    - Rust
+    - Networking
+categories:
+    - Dev
 ---
 
 ![Build Binaries](https://github.com/Sarsoo/dnstp/actions/workflows/build.yml/badge.svg)
@@ -9,7 +14,7 @@ date: 2024-10-12T08:26:40+00:00
 [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://git.sarsoo.xyz/sarsoo/-/packages/cargo/dnstplib)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://git.sarsoo.xyz/sarsoo/-/packages/container/dnstp)
 
-I have written previously about my Rust projects. However, these have always been in WebAssembly so they are consumed from a web browser. I wanted to play with native Rust code and some if its highly regarded multi-threading features.
+[I have written previously about my Rust projects](/tags/rust). However, these have always been in WebAssembly so they are consumed from a web browser. I wanted to play with native Rust code and some if its highly regarded multi-threading features.
 
 Something I also enjoy, when working with low-level languages, is bitwise operations. These two led me to the desire to do a native Rust project. I was aware of the concept of [DNS tunneling](https://www.zenarmor.com/docs/network-security-tutorials/what-is-dns-tunneling#what-are-the-dns-tunneling-techniques), I believe I heard the idea described on [Security This Week with Carl Franklin](https://securitythisweek.com/). So that was the inspiration, build some sort of DNS tunneling apparatus, largely to have a toy project that I could fiddle with.
 
@@ -64,9 +69,11 @@ With this response, each side now has the other's public key. With this and thei
 
 ## data transmission
 
-With this security context set, we can now send data over the insecured channel.
+With this security context set, we can now send data over the insecured channel. The general idea is that the components of each data transfer are 
 
-# dnstplib
+# dns lib 
+
+The first task when I started the project was to work out how to generate and serialise DNS messages. I had a look for an existing crate that could help with this but wasn't satisfied with what I could find, so I decided to write my own. This was a lot of fun because, as I mentioned previously, I love working with bitwise operations. Working with the bit flags of the DNS header was great.
 
 # mvp
 
