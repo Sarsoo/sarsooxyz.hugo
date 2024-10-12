@@ -2,6 +2,11 @@
 title: "More Sustainable Terraform: Breaking Down the Beast"
 date: 2023-09-10T08:34:40+00:00
 draft: false
+tags:
+    - Terraform
+    - Cloud
+categories:
+    - Dev
 ---
 
 I [wrote earlier this year]({{< relref "infra" >}}) about jumping into Terraform to manage my infrastructure. I love the [idemptotent](https://en.wikipedia.org/wiki/Idempotence) behaviour and the way that the declarative format leads to a self-documenting, centralised repository of my resources across a variety of platforms.

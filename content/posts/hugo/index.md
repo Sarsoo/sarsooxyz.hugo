@@ -2,6 +2,8 @@
 title: "Wordpress → Hugo"
 date: 2022-09-20T07:43:40+00:00
 draft: false
+tags:
+    - Cloud
 ---
 
 ![ci](https://github.com/sarsoo/sarsooxyz.hugo/actions/workflows/pages.yml/badge.svg)

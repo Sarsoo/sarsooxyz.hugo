@@ -4,6 +4,12 @@ date: 2021-01-19T14:23:40+00:00
 draft: false
 aliases:
     - /mixonomer
+tags:
+    - Python
+    - Javascript
+    - Cloud
+categories:
+    - Dev
 ---
 
 ![ci badge](https://github.com/sarsoo/mixonomer/workflows/test%20and%20deploy/badge.svg)

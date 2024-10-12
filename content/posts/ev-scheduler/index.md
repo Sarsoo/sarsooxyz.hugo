@@ -3,6 +3,10 @@ title: "Electric Vehicle Scheduler"
 description: "Writing a fullstack electric vehicle parking spot scheduler system"
 date: 2019-01-14T14:35:40+00:00
 draft: false
+tags:
+    - Python
+    - Uni
+    - Cloud
 ---
 
 As part of my third-year group project, I wrote and deployed a cloud-based electric vehicle scheduling system. The target use case was for public or internally accessible electric vehicle charging spots. Leaving a car in the spot past when it has charged stops other people for using it, the idea was to allow people to book slots for spaces instead.

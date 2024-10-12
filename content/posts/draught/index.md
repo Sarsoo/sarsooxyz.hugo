@@ -2,6 +2,11 @@
 title: "Draught: Rust WASM Game With AI Player"
 date: 2021-07-13T14:02:40+00:00
 draft: false
+tags:
+    - Rust
+    - WASM
+categories:
+    - Dev
 ---
 
 ![ci](https://github.com/sarsoo/draught/actions/workflows/test.yml/badge.svg)

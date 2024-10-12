@@ -1,6 +1,14 @@
 ---
 title: "Terraform + Ansible + Docker: Killer Reproducible & Portable Infrastructure"
 date: 2023-04-11T21:26:40+00:00
+tags:
+  - DevOps
+  - Terraform
+  - Ansible
+  - Cloud
+  - Networking
+categories:
+    - Homelab
 ---
 
 I have been playing with Ansible & Terraform to manage my infrastructure since early 2022. Both of these technologies have a bit of a learning curve, but in the last few months, I have found the pattern to allow me to expand the services that I run and how comfortable I am with how stable they are.

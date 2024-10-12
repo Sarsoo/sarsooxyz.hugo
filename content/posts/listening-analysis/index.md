@@ -2,6 +2,12 @@
 title: "Listening Engineering: ML + Spotify + Last.fm"
 date: 2021-02-20T12:22:40+00:00
 draft: false
+tags:
+    - Python
+    - ML
+    - Music
+categories:
+    - Dev
 ---
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/listening-analysis)

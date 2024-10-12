@@ -4,6 +4,13 @@ date: 2021-01-19T21:49:40+00:00
 draft: false
 aliases:
     - /holo
+tags:
+    - Uni
+    - C#
+    - C++
+    - Cloud
+categories:
+    - Dev
 ---
 
 [LiveScan3D](https://github.com/MarekKowalski/LiveScan3D) is a holographic teleportation or _holoportation_ platform. The app has a client-server model for streaming 3D or _volumetric_ video over the internet. It was written in 2015 by a pair of academics at the Warsaw University of Technology, [Marek Kowalski](http://home.elka.pw.edu.pl/~mkowals6/) and [Jacek Naruniec](http://home.elka.pw.edu.pl/~jnarunie/).

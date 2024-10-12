@@ -1,6 +1,11 @@
 ---
 title: "Going all in on Tailscale"
 date: 2024-07-02T08:26:40+00:00
+tags:
+    - DevOps
+    - Networking
+categories:
+    - Homelab
 ---
 
 I've been fiddling with Tailscale for a while. It has always seemed like a really cool piece of tech but there have been a few things that have held me back from going all in.

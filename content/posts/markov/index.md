@@ -2,6 +2,12 @@
 title: "Hidden Markov Model Training"
 date: 2021-01-05T11:12:40+00:00
 draft: false
+tags:
+    - Uni
+    - Python
+    - ML
+categories:
+    - Dev
 ---
 
 ![state-topology](StateTopology.png)

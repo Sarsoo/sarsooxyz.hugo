@@ -2,6 +2,9 @@
 title: "ROS Labs"
 date: 2020-05-19T22:49:40+00:00
 draft: false
+tags:
+    - Uni
+    - C++
 ---
 
 One of my 3rd-year university modules was a robotics module working with the ROS ecosystem in Python and C++. The course worked through the theory of the field including navigation and mapping in the context of how this is implemented in ROS.

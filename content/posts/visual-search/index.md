@@ -2,6 +2,12 @@
 title: "Visual Search Report"
 date: 2019-12-03T14:26:40+00:00
 draft: false
+tags:
+    - Uni
+    - Matlab
+    - ML
+categories:
+    - Dev
 ---
 
 As part of my computer vision and pattern recognition module, I wrote and reported on a [visual search](https://en.wikipedia.org/wiki/Visual_search) system using the [MSRC v2 data set](http://download.microsoft.com/download/3/3/9/339D8A24-47D7-412F-A1E8-1A415BC48A15/msrc_objcategimagedatabase_v2.zip). Visual search is essentially what Google's reverse image search does. Given a target image, the system should be able to return similar images based on its content. The dataset is divided into 20 different categories including trees, cows and faces - a good visual search system will be able to retrieve the images of the same category as the subject before the other less relevant images.

@@ -2,6 +2,12 @@
 title: "Linear Predictive Speech Synthesiser"
 date: 2020-11-10T14:48:40+00:00
 draft: false
+tags:
+    - Uni
+    - Matlab
+    - ML
+categories:
+    - Dev
 ---
 
 During my speech & audio processing & recognition post-grad module, I completed two pieces of coursework. The first of which involved writing and analysing a speech synthesiser utilising linear predictive coding. The report achieved 95%.

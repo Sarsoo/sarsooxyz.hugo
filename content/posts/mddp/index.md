@@ -2,6 +2,8 @@
 title: "Net-Zero Cable Repair Ship"
 date: 2021-01-10T18:44:40+00:00
 draft: false
+tags:
+    - Uni
 ---
 
 I've just completed one of my post-grad modules which was structured as a multi-disciplinary group design project. A group of engineers of varying disciplines came together to design a subsea fibre-optic cable repair ship which is net-zero carbon.

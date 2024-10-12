@@ -2,6 +2,11 @@
 title: "Game of Life: Rust WASM Exercise"
 date: 2021-06-26T14:14:40+00:00
 draft: false
+tags:
+    - Rust
+    - WASM
+categories:
+    - Dev
 ---
 
 ![ci](https://github.com/sarsoo/game-of-life/actions/workflows/test.yml/badge.svg)
