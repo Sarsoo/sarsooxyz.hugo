@@ -1,3 +1,12 @@
+:root {
+    // --shadow-colour: #828282;
+    --shadow-colour: #3f0aff;
+}
+
+
+///////////////////////
+//      AVATAR
+///////////////////////
 
 .avatar {
 
@@ -9,66 +18,68 @@
         border-width: 7px;
         border-color: black;
 
-        filter: drop-shadow(var(--shift) 8px 1px #828282);
-        translate: calc(var(--shift) * -1) calc(var(--shift) * -1);
+        // filter: drop-shadow(var(--shift) 8px 1px var(--shadow-colour));
+        // translate: calc(var(--shift) * -1) calc(var(--shift) * -1);
 
-        @media screen and (prefers-reduced-motion: no-preference) { 
-            transition: filter, translate;
-            transition-duration: 1s;
-            transition-timing-function: ease-in-out;
+        @media (prefers-reduced-motion: no-preference) { 
+            // transition: filter, translate;
+            // transition-duration: 1s;
+            // transition-timing-function: ease-in-out;
 
             animation: shift-avatar 3s ease-in-out infinite alternate backwards;
 
             @keyframes shift-avatar {
-                from { filter: none; translate: none; }
+                from { 
+                    filter: drop-shadow(0px 0px 0px var(--shadow-colour)); 
+                    translate: none;
+                }
                 to {
-                    filter: drop-shadow(var(--shift) 8px 1px #828282);
+                    filter: drop-shadow(var(--shift) 8px 1px var(--shadow-colour));
                     translate: calc(var(--shift) * -1) calc(var(--shift) * -1);
                 }
             }
         }
     }
 
-    @media screen and (prefers-reduced-motion: no-preference) { 
+    @media (prefers-reduced-motion: no-preference) { 
         img:hover {
             filter: none;
             translate: none;
-            animation-play-state: paused;
+            // animation-play-state: paused;
         }
     }
 }
 
 @media only screen and (max-width: 768px) {
     .avatar img {
-        --shift: 10px;
+        --shift: 1px;
         border-width: 5px;
     }
 }
+
+///////////////////////
+//     BOX LINK
+///////////////////////
 
 .box-link {
     --shift: 8px;
     --border-radius: 10px;
 
-    // border: 50px black;
-    position: relative; 
-    // background-size: cover; 
-    // background-position: 50%; 
+    position: relative;
     width: 100%; 
     display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    box-sizing: border-box;
+    justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
 
     translate: calc(var(--shift) * -1) calc(var(--shift) * -1);
 
-    @media screen and (prefers-reduced-motion: no-preference) { 
+    @media (prefers-reduced-motion: no-preference) { 
         transition: translate;
-        transition-duration: 0.5s;
+        transition-duration: 0.25s;
         transition-timing-function: ease-in-out;
 
-        animation: shift-image 1s backwards;
+        animation: shift-image 0.3s backwards;
         @keyframes shift-image {
             from { translate: none; }
             to { translate: calc(var(--shift) * -1) calc(var(--shift) * -1); }
@@ -76,42 +87,41 @@
     }
 
     span {
-        border: none;
         border-radius: var(--border-radius);
         opacity: .5; 
         background-color: black; 
         position: absolute; 
         top: 0; left: 0; bottom: 0; right: 0; 
-        z-index: 1; 
+        z-index: 0; 
     }
 
     img {
         /* object-position:38% 50%;  */
-        z-index: 0; 
+        z-index: -1; 
         position: absolute; 
         top: 0; left: 0; bottom: 0; right: 0; 
         margin: 0; 
         padding: 0; 
         width: 100%; height: 100%; 
-        object-fit: cover; 
-        outline: none; 
+        overflow: hidden;
+        object-fit: cover;
         border: 4px solid black;
         border-radius: var(--border-radius);
-        box-shadow: var(--shift) var(--shift) 1px #828282;
+        box-shadow: var(--shift) var(--shift) 1px var(--shadow-colour);
 
-        @media screen and (prefers-reduced-motion: no-preference) { 
+        @media (prefers-reduced-motion: no-preference) { 
             transition: box-shadow;
-            transition-duration: 0.5s;
+            transition-duration: 0.25s;
             transition-timing-function: ease-in-out;
-            animation: shift-shadow 1s backwards;
+            animation: shift-shadow 0.3s backwards;
             @keyframes shift-shadow {
                 from { box-shadow: none; }
-                to { box-shadow: var(--shift) var(--shift) 1px #828282; }
+                to { box-shadow: var(--shift) var(--shift) 1px var(--shadow-colour); }
             }
         }
     }
 
-    @media screen and (prefers-reduced-motion: no-preference) { 
+    @media (prefers-reduced-motion: no-preference) { 
         &:hover {
             translate: none;
 
@@ -122,7 +132,7 @@
     }
 
     div {
-        z-index: 1;
+        z-index: 0;
         margin-top: 50px;
         margin-bottom: 50px;
         margin-right: 5%;
@@ -143,4 +153,17 @@
         text-underline-offset: 3px;
         text-decoration-skip-ink: all;
     }
+}
+
+///////////////////////
+//   FOOTER LOGO
+///////////////////////
+
+.footer-logo {
+    filter: contrast(100%);
+    transition: filter 1s ease-in-out;
+}
+
+.footer-logo:hover {
+    filter: contrast(0%) drop-shadow(7px 7px 5px grey);
 }
