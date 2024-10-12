@@ -24,6 +24,8 @@ paginate = 40
   avatarurl = "images/avatar.jpg"
   hideColorSchemeToggle = true
 
+  customSCSS = ["scss/main.scss"]
+
 [[params.social]]
   name = "Mastodon"
   icon = "fa-brands fa-mastodon fa-2x"
