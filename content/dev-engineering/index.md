@@ -53,6 +53,8 @@ My undergraduate dissertation documented extending the [__LiveScan3D__](https://
 
 {{% image-box-link src="/posts/game-of-life/gameoflife1.png" href="/posts/game-of-life" title="Game of Life" caption="Rust + Js" %}}
 
+{{% image-box-link src="/posts/dnstp/server.png" href="/posts/dnstp" title="dnstp" caption="Rust" %}}
+
 # [Mixonomer](/mixonomer)
 
 `Python [Flask]`
