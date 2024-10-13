@@ -6,7 +6,7 @@ tags:
     - Cloud
 ---
 
-![ci](https://github.com/sarsoo/sarsooxyz.hugo/actions/workflows/pages.yml/badge.svg)
+![ci](https://github.com/sarsoo/sarsooxyz.hugo/actions/workflows/docker.yml/badge.svg)
 
 My personal website (this one) has been a Wordpress instance for several years. This was a great exercise in running a public facing, static-ish site as well as managing Wordpress itself but it did demonstrate it's drawbacks. Wordpress has some real strengths; it doesn't have a crazy learning curve, it has a nice WYSIWYG editor and it's flexible.
 
