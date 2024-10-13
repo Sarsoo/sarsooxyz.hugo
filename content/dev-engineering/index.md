@@ -12,9 +12,11 @@ aliases:
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=container)
 [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=helm)
 
+<div class="dev-grid dev-grid-col-2">
 {{% image-box-link src="/posts/mixonomer/PlaylistExample.png" href="/posts/mixonomer" title="Mixonomer" caption="Python + React" %}}
 
 {{% image-box-link src="/posts/selector/dashboard.png" href="/posts/selector/" title="Selector" caption="C# + TypeScript + Vue.js" %}}
+</div>
 
 # [Infrastructure]({{< relref "infra" >}})
 
@@ -26,11 +28,13 @@ Basically, Terraform creates and destroys infrastructure, Ansible manages the OS
 
 [Read More]({{< relref "infra" >}})
 
+<div class="dev-grid dev-grid-col-3">
 {{% image-box-link src="/posts/visual-search/mapSurfaceWithMax2.png" href="/posts/visual-search" title="Visual Search" caption="MATLAB" %}}
 
-{{% image-box-link src="/posts/lpss/hood_m_gram.png" href="/posts/lpss" title="Speech Synthesiser" caption="MATLAB" %}}
+{{% image-box-link src="/posts/lpss/hood_m_gram.png" href="/posts/lpss" title="Speech Synth" caption="MATLAB" %}}
 
 {{% image-box-link src="/posts/markov/StateTopology.png" href="/posts/markov" title="Hidden Markov Models" caption="Python + Numpy" %}}
+</div>
 
 # [Holoportation](/holo)
 
@@ -45,15 +49,17 @@ The holograms are captured in the form of a __point cloud__, a cluster of colour
 
 My undergraduate dissertation documented extending the [__LiveScan3D__](https://github.com/MarekKowalski/LiveScan3D) holoportation platform to allow multi-source streaming. The existing capabilities allowed a single scene to be captured in real-time and streamed elsewhere for viewing, multi-source allows multiple independent scenes to be received and composited at the same time (a many-to-one system).
 
-{{< youtube NP0aVjuk5fU >}}
+{{< youtube id=NP0aVjuk5fU autoplay=true controls=false loop=true class=youtube-embed >}}
 
 [Read More](/holo)
 
+<div class="dev-grid dev-grid-col-3">
 {{% image-box-link src="/posts/dnstp/server.png" href="/posts/dnstp" title="dnstp" caption="Rust" %}}
 
 {{% image-box-link src="/posts/draught/checkers-board.png" href="/posts/draught" title="Draught" caption="Rust + Js" %}}
 
 {{% image-box-link src="/posts/game-of-life/gameoflife1.png" href="/posts/game-of-life" title="Game of Life" caption="Rust + Js" %}}
+</div>
 
 # [Mixonomer](/mixonomer)
 

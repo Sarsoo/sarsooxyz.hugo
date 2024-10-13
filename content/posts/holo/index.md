@@ -42,7 +42,7 @@ My undergraduate dissertation was tasked with extending the original software to
 
 The development works by including an ID to indicate what source a frame of footage represents.
 
-{{< youtube NP0aVjuk5fU >}}
+{{< youtube id=NP0aVjuk5fU autoplay=true controls=false loop=true class=youtube-embed >}}
 
 ###### A couple of recorded sources operating in the virtual space. A third live one is connected part way through
 
