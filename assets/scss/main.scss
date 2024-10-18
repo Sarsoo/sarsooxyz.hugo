@@ -3,6 +3,44 @@
     --shadow-colour: #3f0aff;
 }
 
+p {
+    white-space: normal;
+}
+
+.silkscreen-regular,
+.categories > a,
+.tags > span > a,
+.taxonomy-element > a {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigation-title {
+    font-size: 4rem !important;
+    vertical-align: middle;
+}
+
+.about > *,
+.content header h1,
+.navigation-title {
+    font-family: "Pirata One", apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.about {
+    user-select: none;
+}
+
+.about > h1 {
+    font-size: 5rem !important;
+}
+
+.about > h2 {
+    font-size: 3rem !important;
+}
+
 @mixin shadowed {
     box-shadow: var(--shift) var(--shift) 2px var(--shadow-colour);
     translate: calc(var(--shift) * -1) calc(var(--shift) * -1);

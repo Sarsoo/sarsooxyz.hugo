@@ -1,6 +1,6 @@
 baseURL = 'https://sarsoo.xyz/'
 languageCode = 'en-gb'
-title = 'sarsoo.xyz'
+title = 'sarsoo'
 theme = 'hugo-coder'
 
 paginate = 40

@@ -1,0 +1,8 @@
+{
+    "short_name": "Sarsoo",
+    "name": "Sarsoo",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#3f0aff",
+    "background_color": "#ffffff"
+}
