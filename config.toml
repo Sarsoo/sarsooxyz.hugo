@@ -3,7 +3,8 @@ languageCode = 'en-gb'
 title = 'sarsoo'
 theme = 'hugo-coder'
 
-paginate = 40
+[pagination]
+pagerSize = 40
 
 [taxonomies]
   category = 'categories'
