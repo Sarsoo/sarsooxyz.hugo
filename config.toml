@@ -31,7 +31,7 @@ pagerSize = 40
   name = "Mastodon"
   icon = "fa-brands fa-mastodon fa-2x"
   weight = 1
-  url = "https://fosstodon.org/@sarsoo/"
+  url = "https://mastodon.sarsoo.xyz/@sarsoo/"
 [[params.social]]
   name = "Instagram"
   icon = "fa fa-instagram fa-2x"
@@ -43,14 +43,24 @@ pagerSize = 40
   weight = 3
   url = "https://github.com/sarsoo/"
 [[params.social]]
+  name = "Gitea"
+  icon = "fa-brands fa-git-alt fa-2x"
+  weight = 4
+  url = "https://git.sarsoo.xyz/sarsoo"
+[[params.social]]
+  name = "Registry"
+  icon = "fa-brands fa-docker fa-2x"
+  weight = 5
+  url = "https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=container"
+[[params.social]]
   name = "Last.fm"
   icon = "fa fa-lastfm fa-2x"
-  weight = 4
+  weight = 6
   url = "https://last.fm/user/sarsoo/"
 [[params.social]]
   name = "Linkedin"
   icon = "fa fa-linkedin fa-2x"
-  weight = 5
+  weight = 7
   url = "https://www.linkedin.com/in/andypack/"
 
 [[menu.main]]
