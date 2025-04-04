@@ -1,0 +1,8 @@
+{
+  "userIgnoreFilters": [
+    "public/"
+  ],
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": true
+}
