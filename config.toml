@@ -46,16 +46,16 @@ pagerSize = 40
   icon = "fa fa-github fa-2x"
   weight = 3
   url = "https://github.com/sarsoo/"
-[[params.social]]
-  name = "Gitea"
-  icon = "fa-brands fa-git-alt fa-2x"
-  weight = 4
-  url = "https://git.sarsoo.xyz/sarsoo"
-[[params.social]]
-  name = "Registry"
-  icon = "fa-brands fa-docker fa-2x"
-  weight = 5
-  url = "https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=container"
+# [[params.social]]
+#   name = "Gitea"
+#   icon = "fa-brands fa-git-alt fa-2x"
+#   weight = 4
+#   url = "https://git.sarsoo.xyz/sarsoo"
+# [[params.social]]
+#   name = "Registry"
+#   icon = "fa-brands fa-docker fa-2x"
+#   weight = 5
+#   url = "https://git.sarsoo.xyz/sarsoo/-/packages?q=&type=container"
 [[params.social]]
   name = "Last.fm"
   icon = "fa fa-lastfm fa-2x"
