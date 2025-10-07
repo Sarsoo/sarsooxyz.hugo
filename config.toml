@@ -27,6 +27,10 @@ pagerSize = 40
 
   customSCSS = ["scss/reset.scss", "scss/main.scss"]
 
+[params.umami]
+  siteID = "d3defd01-3e5c-4d1f-8cc4-4cb18803fa58"
+  scriptURL = "https://u.sarsoo.xyz/sarsoo.js" 
+
 [[params.social]]
   name = "Mastodon"
   icon = "fa-brands fa-mastodon fa-2x"
