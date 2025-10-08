@@ -2,9 +2,10 @@
 title: "Knowledge Crawler: Analysing Markdown Notes"
 date: 2025-03-14T07:26:40+00:00
 tags:
-    - C++
+  - C++
 categories:
-    - Dev
+  - Dev
+draft: true
 ---
 
 ![ci](https://github.com/Sarsoo/KnowledgeCrawler/actions/workflows/ci.yml/badge.svg)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/KnowledgeCrawler)

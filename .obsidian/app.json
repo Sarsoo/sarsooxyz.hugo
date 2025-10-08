@@ -4,5 +4,6 @@
   ],
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "showLineNumber": true
 }

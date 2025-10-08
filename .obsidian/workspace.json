@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "77c275f286990fb9",
+        "id": "c3886af3c1ba9a05",
         "type": "tabs",
         "children": [
           {
-            "id": "d0a740617b5ab789",
+            "id": "b38f6acf8717ee34",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:C#",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 233.5
   },
   "right": {
     "id": "b3ed33eb51ad78b6",
@@ -167,10 +167,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -180,11 +181,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "375dc82e4b3fd825",
+  "active": "b38f6acf8717ee34",
   "lastOpenFiles": [
+    "content/posts/overflow/index.md",
+    "content/posts/selector-maui/index.md",
+    "content/posts/multi-region-k8s/index.md",
+    "content/posts/local-k8s/index.md",
+    "content/posts/kc/index.md",
+    "content/posts/selector-maui",
+    "content/posts/overflow",
+    "content/posts/local-k8s",
+    "content/posts/kc",
+    "content/posts/mixonomer/index.md",
+    "content/posts/multi-region-k8s",
+    "content/posts/mixonomer-infra/index.md",
+    "content/posts/selector/index.md",
+    "content/posts/holo/index.md",
     "content/posts/dnstp/index.md",
-    "tags/ansible.md",
+    "content/posts/tailscale/index.md",
+    "content/posts/ros.md",
     "content/about.md",
+    "content/art/_index.md",
+    "tags/ansible.md",
     "tags",
     "content/posts/hugo/index.md"
   ]
