@@ -18,7 +18,7 @@ aliases:
 {{% image-box-link src="/posts/selector/dashboard.png" href="/posts/selector/" title="Selector" caption="C# + TypeScript + Vue.js" %}}
 </div>
 
-# [Infrastructure]({{< relref "infra" >}})
+# [Homelab Infrastructure]({{< relref "infra" >}})
 
 I manage my local and cloud infrastructure with __Terraform__ + __Ansible__ + __Docker__. I've found this stack incredibly powerful so I've written a post about my patterns and what I love about it.
 
@@ -28,12 +28,9 @@ Basically, Terraform creates and destroys infrastructure, Ansible manages the OS
 
 [Read More]({{< relref "infra" >}})
 
-<div class="dev-grid dev-grid-col-3">
-{{% image-box-link src="/posts/visual-search/mapSurfaceWithMax2.png" href="/posts/visual-search" title="Visual Search" caption="MATLAB" %}}
+<div class="dev-grid dev-grid-col-1">
 
-{{% image-box-link src="/posts/lpss/hood_m_gram.png" href="/posts/lpss" title="Speech Synth" caption="MATLAB" %}}
-
-{{% image-box-link src="/posts/markov/StateTopology.png" href="/posts/markov" title="Hidden Markov Models" caption="Python + Numpy" %}}
+{{% image-box-link src="/posts/tailscale/ts-background.svg" href="/posts/tailscale" title="Tailscale" %}}
 </div>
 
 # [Holoportation](/holo)
@@ -84,7 +81,13 @@ The system is now deployed with a fully serverless architecture.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo/Mixonomer)
 
----
+<div class="dev-grid dev-grid-col-3">
+{{% image-box-link src="/posts/visual-search/mapSurfaceWithMax2.png" href="/posts/visual-search" title="Visual Search" caption="MATLAB" %}}
+
+{{% image-box-link src="/posts/lpss/hood_m_gram.png" href="/posts/lpss" title="Speech Synth" caption="MATLAB" %}}
+
+{{% image-box-link src="/posts/markov/StateTopology.png" href="/posts/markov" title="Hidden Markov Models" caption="Python + Numpy" %}}
+</div>
 
 # [Selector](/selector)
 
@@ -117,33 +120,11 @@ __Spotify__ provides audio features for the tracks on its platform. These featur
 
 ---
 
-# Signal Processing
-
-Throughout my studies I found myself particularly interested in the signal processing and AI modules, these have included:
-
-- Computer Vision and Pattern Recognition
-    - Visual Search Report
-- Robotics
-    - ROS Labs
-- Speech & Audio Processing & Recognition
-    - Linear Predictive Speech Synthesiser
-    - Hidden Markov Model Training
-- Image Processing & Deep Learning
-    - CNN Training Coursework
-- AI & AI Programming
-    - Shallow MLP Coursework
-
-[Posts](/posts)
-
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarsoo?tab=repositories&q=coursework)
-
----
-
 <!--- 2016 for coding, 2018 for Linux --->
 
-I've been coding for 8 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](http://github.com/sarsoo).
+I've been coding for 9 years and I now work as a software engineer in fintech. Day-to-day this is in [__C#__](/holo/) and [__TypeScript__](/mixonomer) but I also like working with [__Python__](/mixonomer) and [__Rust__](https://github.com/Sarsoo?tab=repositories&q=&type=&language=rust&sort=). I keep all of my projects on [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](http://github.com/sarsoo).
 
-Alongside development I also enjoy working on infrastructure, I have 5 years experience using __Linux__ and managing networks. I have experience working with cloud technologies – from [__virtual machines__](/holo), [__web server PaaS__](/mixonomer) and [__serverless functions__](/mixonomer) to [__NoSQL__](/mixonomer), Big Data SQL and [__pub/sub messaging__](/mixonomer). Much of this experience was gained during my [__Mixonomer__](/mixonomer) project and during my __Disney__ internship. As part of my [dissertation](/holo#research), I used a global cluster of virtual machines as an environment to measure and experiment with holographic video QoS over long distances.
+Alongside development I also enjoy working on infrastructure, I have 7 years experience using __Linux__ and managing networks. I have experience working with cloud technologies – from [__virtual machines__](/holo), [__web server PaaS__](/mixonomer) and [__serverless functions__](/mixonomer) to [__NoSQL__](/mixonomer), Big Data SQL and [__pub/sub messaging__](/mixonomer). Much of this experience was gained during my [__Mixonomer__](/mixonomer) project and during my __Disney__ internship. As part of my [dissertation](/holo#research), I used a global cluster of virtual machines as an environment to measure and experiment with holographic video QoS over long distances.
 
 At university, I was particularly interested in the software side of the field including modules in __programming__, __signal processing__ and __AI__. I also took a set of modules in __semiconductors__ and __nanoscience__.
 
@@ -160,4 +141,4 @@ Throughout my time at university, I earned multiple awards for academic achievem
 - ___Lumentum Award___ (2020)
     - Awarded for achieving the __highest mark__ in my third year __Semiconductors & Optoelectronics__ module
 - ___Atkins Best Oral Presentation – 2nd Prize___ (2021)
-    - Awarded for giving second best oral presentation for ___multi-disciplinary design project___. Project involved designing a fully renewable ship and depot to repair sub-sea fibre optic cables. 
+    - Awarded for giving second best oral presentation for ___multi-disciplinary design project___. Project involved designing a fully renewable ship and depot to repair sub-sea fibre optic cables.

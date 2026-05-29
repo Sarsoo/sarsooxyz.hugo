@@ -1,0 +1,8 @@
+<svg width="600" height="315" viewBox="0 0 600 315" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="600" height="315" fill="#2E2D2D"></rect>
+<rect width="100" height="100" rx="50" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 250 158)" fill="#AFACAB"></rect>
+<rect width="100" height="200" rx="50" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 350 258)" fill="#706E6D"></rect>
+<rect width="100" height="100" rx="50" transform="matrix(1 0 0 -1 350 258)" fill="#AFACAB"></rect>
+<path d="M350 58C405.24 58 450 102.76 450 158L350 158L350 58Z" fill="#706E6D"></path>
+<rect width="100" height="100" transform="matrix(1 0 0 -1 250 158)" fill="#AFACAB"></rect>
+</svg>
